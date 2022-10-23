@@ -1,0 +1,24 @@
+.hero-section {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70%;
+}
+.hero-title {
+  font-size: 6rem;
+  color: #fff;
+
+}
+ 
+.explore-btn{
+    padding: 20px 45px;
+    color: #FFFF;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s;
+    margin-top: 20px;
+}
+.explore-btn:hover{
+    color: #fff;
+
+}
