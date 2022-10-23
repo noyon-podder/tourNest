@@ -1,0 +1,33 @@
+.base-color {
+  color: var(--base-color);
+}
+.navbar {
+  z-index: 10;
+  border-bottom: 2px solid #ffff;
+}
+.menu-section a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: 0 20px;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  transition: color ease 0.3s;
+}
+
+.menu-section a:hover {
+  color: var(--base-color);
+}
+.menu-section a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  background-color: var(--base-color);
+  bottom: -31px;
+  left: 0;
+  transition: width ease 0.3s;
+}
+.menu-section a:hover::after {
+  width: 100%;
+}
